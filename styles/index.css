@@ -331,14 +331,6 @@
     animation: bounceInDown 1.2s ease-in-out 0.5s backwards;
 }
 
-.hero-text h2 {
-    animation: bounceInLeft 1.2s ease-in-out 0.5s backwards;
-}
-
-.hero-text p {
-    animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
-}
-
 .hero-text i {
     animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
 }
@@ -366,12 +358,18 @@
 
  .left {
      grid-row-start: 1;
-     grid-column: 2 / 4;
+     grid-column: 1 / 2;
+     animation: bounceInLeft 1.2s ease-in-out 0.5s backwards;
  }
 
  .right {
      grid-row-start: 1;
-     grid-column: 5 / 7;
+     grid-column: 7 / 8;
+     animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
+ }
+
+ .aboutme{
+     padding: 40px 30px;
  }
 
 .tag {
@@ -387,6 +385,7 @@
 
 .right img, .left img {
     max-width: 520px;
+    padding-right: 0px;
 }
 
 .flex-column {
@@ -404,6 +403,11 @@
     margin-bottom: 10px;
 }
 
+.details{
+  margin-left: 90px;
+  margin-top: 0px;
+}
+
 .grid-container > div {
     opacity: 0;
 }
@@ -418,23 +422,8 @@ div.in-view.right {
   animation-fill-mode: both;
 }
 
-.process {
-    padding: 50px 50px;
-    text-align: center;
-    background-image: url(../assets/images/marble_bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.overlay {
-    background-color: rgba(255,255,255,0.75);
+.designproc {
     padding: 30px 20px;
-}
-
-.overlay h2,
-.one-fourth h3  {
-    padding-bottom: 10px;
 }
 
 #subtitle {
@@ -454,7 +443,6 @@ div.in-view.right {
     box-sizing: border-box;
     margin: 10px auto;
     padding-top: 50px;
-    grid-column:
 }
 
 
@@ -470,6 +458,7 @@ div.in-view.right {
     }
     .thumbnail > img {
         max-width: 400px;
+
     }
     .details p {
         font-size: 16px;
@@ -480,7 +469,7 @@ div.in-view.right {
         margin-left: 0;
         margin-right: 0;
     }
-    .overlay > .flex-container {
+    .designproc > .flex-container {
         flex-direction: column;
     }
 }
@@ -521,7 +510,7 @@ div.in-view.right {
         max-width: 300px;
         padding: 0 15px;
     }
-    .overlay > .flex-container > .flex-column {
+    .designproc > .flex-container > .flex-column {
         flex-direction: row;
     }
     .mobile {
@@ -594,8 +583,18 @@ div.in-view.right {
     .icon {
         width: 100px;
         height: 100px;
+
     }
-  
+
+    .top {
+      padding-top: 50px;
+    }
+
+    .icon > .re {
+    font-size: 24px;
+    padding: 10%;
+    }
+
     .flex-column {
         flex-direction: column;
     }

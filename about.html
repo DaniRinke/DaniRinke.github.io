@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Danielle Rinke</title>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli" />
+        <link href='https://fonts.googleapis.com/css?family=Halant' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head>
+
+    <body>
+      <a name="top"></a>
+        <header class="hero-content">
+          <div class="layer">
+            <nav class="navbar">
+                <a href="index.html"><img src="/images/Danielle-Logo.png" alt="Danielle Rinke logo" class="logo"></a>
+                <div class="menu-container" aria-label="Menu">
+                    <label for="toggle-mobile-menu" aria-label="Menu">&#9776;</label>
+                    <input id="toggle-mobile-menu" type="checkbox" />
+                    <ul class="navbar-nav" id="main-menu">
+                        <li class="active"><a href="index.html" class="hvr-underline-from-center">Work</a></li>
+                        <li><a href="about.html" class="hvr-underline-from-center">About</a></li>
+                        <li class="active"><a href="#contact" class="hvr-underline-from-center">Contact</a></li>
+                        <li><a href="https://drive.google.com/open?id=16VkcAmscjBwvIPdDT7HTeWzSOVdGdMH3I14BmaDWPr0" target="_blank" class="hvr-underline-from-center">Resume</a></li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
+            <div class="hero-text">
+                <h1>Hi, I'm </h1>
+                <h1>Danielle Rinke</h1>
+                <h1>Here is a little more information about me!</h1>
+                <a href="#work" id="view-work"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </header>
+
+        <!-- About Me-->
+        <section class="grid-container aboutme">
+            <div class="thumbnail left">
+                <img src="/images/mypicture.png" alt="Picture of Danielle Rinke">
+            </div>
+            <div class="details right">
+                <h2>About Me</h2>
+                <p>Time to get creative? Count me in! I have always had a love for creating, I was 15 years old when I set up my own Etsy shop to sell my paintings. I love painting landscapes and animals, and making my own cards and art projects. I really enjoy sharing my creative side with others!
+
+<br><br>I entered college with the same struggle all students have: what to major in?  ​Everyone told me I was really good with numbers, so off I went to pursue an Accounting Degree. Sensible right? I like accounting and was good at it. I obtained an Accounting degree and had great offers from all of the Big 4 Accounting Firms. So why the dilemma? I knew I was moving away from my creative side but I didn't realize just how much I would miss it. I wanted to use those skills but still use my creativity and love for people.
+
+<br><br>I started looking for the perfect mix of creativity and analytical skills for my career. I remembered the Web Development and Graphic Design classes I took in high school. I looked forward to those classes every day! That's when I realized being a UX/UI Designer was the perfect mix of analytics and creativity for me.
+
+<br><br>I started learning with Bloc and looked forward to working on my projects everyday. I was working twelve hour days without even realizing it. This was when I really realized I had finally found my dream career. It was something I could look forward to and enjoy doing everyday.
+
+<br><br>I have always been a go-to person for creating brochures, signs, and presentations for friends and family. Now that I have an education in design I have created professional level projects that showcase my skills in design. I am looking forward to creating more projects, learning more skills and making a difference in people’s lives with my work.
+ </p>
+
+            </div>
+        </section>
+
+
+
+
+        <!--CONTACT-->
+        <div class="contact">
+          <a name="contact"></a>
+          <div class= overlay>
+          <h2 class="contact-title"> Contact Me </h2>
+          <p class="contact-text"><br> Like my work and want to get in touch? <a href="mailto:rinkedanielle@gmail.com"> send me an email,</a> <a href="mailto:ochoarashel@gmail.com"> message me on linkedin</a> or download my <a href="mailto:ochoarashel@gmail.com">resume!</a> I am looking forward to connecting with you! </p>
+        </div>
+        </div>
+
+        <div class="return-top bounce">
+           <a class="return-link" href="#top">Return to top</a>
+           <i class="fas fa-caret-up"></i>
+        </div>
+
+                  <!--Footer-->
+            <footer>
+               <div class="footer-content">
+                   <p class="copyright">© 2020 Danielle Rinke</p>
+                   <div class="footer-links">
+                       <a href="mailto:rinkedanielle@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                       <a href="https://www.linkedin.com/in/danielle-rinke-3aa57014a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                       <a href="https://twitter.com/DanielleRinke" target="_blank"><i class="fab fa-twitter"></i></a>
+                       <a href="https://github.com/DaniRinke" target="_blank"><i class="fab fa-github"></i></a>
+                   </div>
+               </div>
+           </footer>
+           <script type="text/javascript">
+
+        </body>
+      </html>
+        <script type="text/javascript">
+            (function() {
+
+              'use strict';
+
+              var items = document.querySelectorAll(".grid-container div");
+
+              function isElementInViewport(el) {
+                var rect = el.getBoundingClientRect();
+                return (
+                  rect.top >= 0 &&
+                  rect.left >= 0 &&
+                  rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                  rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+              }
+
+              function callbackFunc() {
+                for (var i = 0; i < items.length; i++) {
+                  if (isElementInViewport(items[i])) {
+                    items[i].classList.add("in-view");
+                  }
+                }
+              }
+
+              window.addEventListener("load", callbackFunc);
+              window.addEventListener("resize", callbackFunc);
+              window.addEventListener("scroll", callbackFunc);
+
+            })();
+        </script>
+      </body>
+      </html>

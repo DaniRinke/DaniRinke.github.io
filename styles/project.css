@@ -27,16 +27,13 @@
     animation: bounceInDown 1.2s ease-in-out 0.5s backwards;
 }
 
-.hero-text h2 {
-    animation: bounceInLeft 1.2s ease-in-out 0.5s backwards;
-}
-
-.hero-text p {
-    animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
-}
-
 .hero-text i {
     animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
+}
+
+#view-work {
+    color: #ffffff;
+    font-size: 26px;
 }
 
 .hero-content {
@@ -113,8 +110,13 @@ margin: 5% 5% 5% 5%;
 .option{
   display: inline-block;
   width:30%;
-  margin: 0% 5% 0% 10%;
+  margin: 0% 5% 5% 10%;
 }
+
+.one {
+  margin-left: 17%;
+}
+
 
 
 /*DETAILS*/
@@ -192,3 +194,389 @@ figcaption{
   width: 340px;
   height:410px;
 }
+
+/*SIZING*/
+
+@media (max-width: 850px) {
+  .hero-text {
+      min-width: 300px;
+  }
+  .hero-content {
+      min-height: 600px;
+      background-position: 60% 50%;
+  }
+  .hero-content img {
+      width: 25%;
+      height: auto;
+  }
+  .hero-text h1 {
+      font-size: 36px;
+  }
+  .hero-text h2 {
+      font-size: 20px;
+      line-height: 26px;
+  }
+  .hero-text p {
+      font-size: 18px;
+  }
+  .hero-text h1,
+  .hero-text h2,
+  .hero-text p {
+      padding-bottom: 10px;
+  }
+  h1 {
+      font-size: 30px;
+}
+  .middle {
+    width: 80%;
+    margin:10%;
+  }
+
+  .middle p {
+    font-size: 14px;
+  }
+
+  .button a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #99B2AF;
+      border: 3px solid #99B2AF;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: 400;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+   .one-third {
+     text-align: center;
+     width: 30% ;
+     margin: 0% 5% 5% 5%;
+   }
+   .role{
+     margin-right: 0%;
+     margin-left: 10%;
+   }
+
+   .tools {
+     margin-right: 10%;
+   }
+
+   .one-half {
+     width: 60%;
+   }
+
+   .right {
+     margin-left: 10%;
+   }
+
+   .survey img{
+     width:70%;
+     margin: 2.5% 15% 0% 15%;
+   }
+
+   .up {
+     display: inline-block;
+     width: 80% ;
+     margin: 5% 10% 5% 15%;
+   }
+
+   .up img{
+    padding-left: 20%;
+   }
+
+   .uf-img img {
+     width:80%;
+     margin: 2.5% 10% 0% 10%;
+   }
+
+   .one-of-three{
+     width: 80% ;
+     margin: 5% 10% 5% 10%;
+   }
+
+   figcaption{
+     padding-left: 0%;
+   }
+
+   .left-side {
+     width:80%;
+     margin: 5% 10% 5% 10%
+   }
+   .right-side{
+     width:80%;
+     margin: 5% 10% 5% 10%
+   }
+
+   .logo-sketch {
+     width:90%;
+     margin: 5% 5% 5% 5%;
+   }
+
+   .logo-png {
+     width:80%;
+     margin: 0% 10% 10% 10%;
+   }
+
+   .conclusion p{
+     width:80%;
+     margin: 5% 10% 5% 10%;
+   }
+
+   .two {
+     margin-left: 17%;
+   }
+}
+
+@media (max-width: 770px) {
+    .hero-text {
+        min-width: 300px;
+    }
+    .hero-content {
+        min-height: 600px;
+        background-position: 60% 50%;
+    }
+    .hero-content img {
+        width: 25%;
+        height: auto;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .hero-text h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hero-text p {
+        font-size: 18px;
+    }
+    .hero-text h1,
+    .hero-text h2,
+    .hero-text p {
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 30px;
+  }
+    .middle {
+      width: 80%;
+      margin:10%;
+    }
+
+    .middle p {
+      font-size: 14px;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #99B2AF;
+        border: 3px solid #99B2AF;
+        padding: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+     .one-third {
+       text-align: center;
+       width: 30% ;
+       margin: 0% 5% 5% 5%;
+     }
+     .role{
+       margin-right: 0%;
+       margin-left: 10%;
+     }
+
+     .tools {
+       margin-right: 10%;
+     }
+
+     .one-half {
+       width: 60%;
+     }
+
+     .right {
+       margin-left: 10%;
+     }
+
+     .survey img{
+       width:70%;
+       margin: 2.5% 15% 0% 15%;
+     }
+
+     .up {
+       display: inline-block;
+       width: 80% ;
+       margin: 5% 10% 5% 15%;
+     }
+
+     .up img{
+      padding-left: 20%;
+     }
+
+     .uf-img img {
+       width:80%;
+       margin: 2.5% 10% 0% 10%;
+     }
+
+     .one-of-three{
+       width: 80% ;
+       margin: 5% 10% 5% 10%;
+     }
+
+     figcaption{
+       padding-left: 0%;
+     }
+
+     .left-side {
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+     .right-side{
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+
+     .logo-sketch {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .logo-png {
+       width:80%;
+       margin: 0% 10% 10% 10%;
+     }
+
+     .conclusion p{
+       width:80%;
+       margin: 5% 10% 5% 10%;
+     }
+
+     .two {
+       margin-left: 17%;
+     }
+     @media (max-width: 480px) {
+         .hero-text {
+             min-width: 300px;
+         }
+         .hero-content {
+             min-height: 600px;
+             background-position: 60% 50%;
+         }
+         .hero-content img {
+             width: 25%;
+             height: auto;
+         }
+         .hero-text h1 {
+             font-size: 36px;
+         }
+         .hero-text h2 {
+             font-size: 20px;
+             line-height: 26px;
+         }
+         .hero-text p {
+             font-size: 18px;
+         }
+         .hero-text h1,
+         .hero-text h2,
+         .hero-text p {
+             padding-bottom: 10px;
+         }
+         h1 {
+             font-size: 30px;
+       }
+         .middle {
+           width: 80%;
+           margin:10%;
+         }
+
+         .middle p {
+           font-size: 14px;
+         }
+
+         .button a {
+             text-decoration: none;
+             color: #ffffff;
+             background-color: #99B2AF;
+             border: 3px solid #99B2AF;
+             padding: 10px 10px;
+             font-size: 14px;
+             font-weight: 400;
+             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+     }
+          .one-third {
+            text-align: center;
+            width: 30% ;
+            margin: 0% 5% 5% 5%;
+          }
+          .role{
+            margin-right: 0%;
+            margin-left: 10%;
+          }
+
+          .tools {
+            margin-right: 10%;
+          }
+
+          .one-half {
+            width: 60%;
+          }
+
+          .right {
+            margin-left: 10%;
+          }
+
+          .survey img{
+            width:70%;
+            margin: 2.5% 15% 0% 15%;
+          }
+
+          .up {
+            display: inline-block;
+            width: 80% ;
+            margin: 5% 10% 5% 15%;
+          }
+
+          .up img{
+           padding-left: 20%;
+          }
+
+          .uf-img img {
+            width:80%;
+            margin: 2.5% 10% 0% 10%;
+          }
+
+          .one-of-three{
+            width: 80% ;
+            margin: 5% 10% 5% 10%;
+          }
+
+          figcaption{
+            padding-left: 0%;
+          }
+
+          .left-side {
+            width:80%;
+            margin: 5% 10% 5% 10%
+          }
+          .right-side{
+            width:80%;
+            margin: 5% 10% 5% 10%
+          }
+
+          .logo-sketch {
+            width:90%;
+            margin: 5% 5% 5% 5%;
+          }
+
+          .logo-png {
+            width:80%;
+            margin: 0% 10% 10% 10%;
+          }
+
+          .conclusion p{
+            width:80%;
+            margin: 5% 10% 5% 10%;
+          }
+
+          .two {
+            margin-left: 17%;
+          }

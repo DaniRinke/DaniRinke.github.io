@@ -32,9 +32,8 @@
             </nav>
           </div>
             <div class="hero-text">
-                <h1>Fruitful </h1>
-                <h1>A platform to help users be more productive</h1>
-                
+                <h1>Busy Bus </h1>
+                <h1>An app to help users know when their bus is arriving</h1>
                 <a href="#work" id="view-work"><i class="fas fa-chevron-down"></i></a>
             </div>
         </header>
@@ -42,7 +41,7 @@
     <!-- SUMMARY -->
       <div class="middle">
         <h2 class="mdl-card__title-text"> Summary </h2>
-        <p class="summary-description mdl-card__supporting-text"><br>I was the UX and UI designer for creation of Fruitful, a platform focused on increasing the productivity of users.  The deliverables were the High Fidelity Mockups, Logo, Brand Style Guide and clickable prototype.   </p>
+        <p class="summary-description mdl-card__supporting-text"><br>I was the UX/UI designer and frontend developer for the creation of Busy Bus, an app that allows users to see when their bus is arriving at the bus stop.   </p>
         <div class="button"><a href="https://invis.io/K4VXL60YCH3">See Prototype</a></div>
       </div>
 
@@ -51,16 +50,14 @@
         <li class="role one-third">
           <h2> Role </h2>
           <p class="project-description mdl-card__supporting-text"> <br>UX/UI Designer <br>
-Researcher/Analyst
+Researcher/Analyst <br> Frontend Developer
           </p>
         </li>
         <li class='deliverables one-third'>
           <h2 class="mdl-card__title-text"> Deliverables </h2>
-          <p class="project-description mdl-card__supporting-text"> <br>Style guide<br>
-High-fidelity mockups (desktop and mobile)<br>
-Clickable prototypes<br>
-Logo<br>
-Assets for developer handoff
+          <p class="project-description mdl-card__supporting-text"> <br>
+High-fidelity mockup<br>
+prototype<br>
           </p>
         </li>
         <li class='tools one-third'>
@@ -68,7 +65,11 @@ Assets for developer handoff
           <p class="project-description mdl-card__supporting-text"> <br>Figma<br>
 Draw.io<br>
 Google Forms<br>
-Invison
+HTML/CSS<br>
+github<br>
+terminal <br>
+atom<br>
+
           </p>
         </li>
       </ul>
@@ -77,12 +78,12 @@ Invison
     <section class="two-sections">
         <div class="problem-solution left one-half">
           <h3>Problem</h3>
-          <p><br>Even though the cloud storage and organization market has many big names, there is still an untapped niche. I needed to discover this market through research and determine the features that would best target this market.
+          <p><br>I was brought on to determine the features that users wanted in a simple transportation app. People were wasting time at the bus stop because they did not know when their bus was going to arrive.
           </p>
         </div>
       <div class="problem-solution right one-half">
         <h3>Solution</h3>
-        <p><br>Fruitful allows you to be more productive by spending less time looking for content or determining when collaboration has happened. It gives you reminders for your most urgent tasks to help you stay on top of your to-do list.
+        <p><br>The solution is an app that tells users what time their bus is going to arrive at a specific bus stop. The app also tells users the frequency so they can plan ahead.
         </p>
       </div>
     </section>
@@ -100,130 +101,43 @@ Invison
           <h3>User Research</h3>
         </div>
         <div class="survey">
-          <img src="images/survey-statistics.png" alt="survey statistics" />
-          <p class= middle>It was important to me to maintain the features that users already use becuase they will expect them, like creating and sharing content. Based on the survey, the avalible market is in productivity with tools like to-do lists and calanders.
-          </p>
-        </div>
-        <div class="title">
-          <h3>User Personas</h3>
-        </div>
-        <div>
-          <p class=middle>With the research and data collected, I began building user personas. These two personas would be identified as potential users.
+          <img src="images/bb-stats.png" alt="survey statistics" />
+          <p class= middle> Through my survey it became clear that real users were sitting at the bus stop longer than necessary becuase they didn't know when their bus was going arrive.
           </p>
         </div>
 
-<!-- User Personas -->
-      <div class=UserPersonas>
-          <ul class=up>
-            <li>
-              <img src="images/John.png" alt="headshot of John" />
-            </li>
-            <li>
-              <h3 class="center"> John </h3>
-            </li>
-            <li>
-              <p class="center color"><br>Customer Success Manager | Age: 37 | Chicago, IL </p>
-            </li>
-            <li>
-              <h3> <br>Motivation </h3>
-              <p> <br>John is motivated by making sure he is excelling at his job. He is a manager and has to ensure his employees are performing up to his standards. He wants to be as efficient as he can with himself and his employees.  </p>
-              <h3> <br>Frustrations </h3>
-              <p> <br>John is frustrated by not knowing what his employees have done, losing track of deadlines and not knowing where files are </p>
-            </li>
-          </ul>
-          <ul class="up">
-            <li>
-              <img src="images/Susan.png" alt="headshot of Susan" />
-            </li>
-            <li>
-              <h3 class="center"> Susan </h3>
-            </li>
-            <li>
-              <p class="center color"><br>Stay at home mother | Age: 30| Denver, CO </p>
-            </li>
-            <li>
-              <h3> <br>Motivation </h3>
-              <p> <br>Susan is motivated by being a good mother to her kids. This includes keeping track of their busy schedules and managing the household. She wants to make sure her kids are as invloved as possible which means balancing a lot for her.   </p>
-              <h3> <br>Frustrations </h3>
-              <p> <br>Susan is frustrated by double booking, not having an effective to do list and forgetting what she needs to do.</p>
-            </li>
-          </ul>
-        </div>
+
           <!-- COMPETETIVE ANALYSIS/ USER STORIES AND FLOWS -->
 
               <section class="two-sections">
                   <div class="problem-solution left one-half">
                     <h3>Competetive Analysis</h3>
-                    <p><br>My analysis of market competetors Google Drive, Pinterest and Evernote showed that Fruitful will fill the productivity niche in the marketplace. From the competitive analysis I saw room in the market for great organization features which inspired the process of tagging documents and utilizing folders in the creation of content process.
+                    <p><br>My analysis of market competetors Moovit and DC Metro showed that Busy Bus could be a niche app for the local market. It would not have all the travel features of Moovit but would be more user friendly than DC Metro.
                     </p>
                   </div>
                 <div class="problem-solution right one-half">
-                  <h3>User Stories and Flows</h3>
-                  <p><br>I created detailed paths for creating content, onboarding and signing in for new and returning users. This detailed information architecture served as a template for the creation of the site.
-                  </p>
-                  <div class="aboutbutton"><a href="https://drive.google.com/open?id=1CU7mBcYflbjA9hI5TfSnG4LN4iaV1pnR">See all User Flows</a></div>
+                  <h3>User Stories</h3>
+                  <p><br>I created user stories for Busy Bus to help determine the MVP. The high priority user stories included searching for a busses timing and seeing all the busses for my stop.
+                  <div class="aboutbutton"><a href="https://drive.google.com/open?id=1rsLfMrWFhsTNc1W63gUi8Cdih84GQN9Orhs15Qk2bp4">See all User Stories</a></div>
                 </div>
               </section>
-
-              <div class="uf-img">
-                <img src="images/user-flows.png" alt="user flows screenshot" />
-              </div>
 
       <!-- Initial Sketches and Wireframes -->
           <section class="wireframes">
               <div class="title">
-                <h3>Initial Sketches and Wireframes</h3>
+                <h3>User Testing</h3>
               </div>
               <div>
-                <p class= middle>Using my user flows,  I started sketching out how the screens would look. For each user flow, I did three to four different sketch iterations. Next, I used Figma to turn these sketches into digital wireframes.
-                </p>
-                <figure class="one-third one-of-three homescreen">
-                  <img src="images/dashboard-sketch.png" alt="Dashboard Wireframe Sketch" />
-                  <figcaption>Dashboard Wireframe Sketch</figcaption>
-                </figure>
-                <figure class="one-third one-of-three">
-                  <img src="images/low-fid-wireframe.png" alt="Dashboard Low-Fidelity Wireframe" />
-                  <figcaption>Dashboard Low-Fidelity Wireframe</figcaption>
-                </figure>
-                <figure class="one-third one-of-three">
-                  <img src="images/high-fid-dashboard.png" alt="Dashboard High-Fidelity Wireframe" />
-                  <figcaption>Dashboard High-Fidelity Wireframe</figcaption>
-                </figure>
-                <p class=middle> With the wireframe prototype, I had three in-person or remote usability tests. Each user had four tasks that they needed to complete.
+                <p class=middle> With the wireframe prototype, I had three in-person usability tests. Each user had two tasks that they needed to complete.
 
-<br><br>Task 1: Sign up for an account
-<br>Task 2: Creating a new piece of content
-<br>Task 3: Share content
-<br>Task 4: Create a new reminder
+<br><br>Task 1: Determine what time a certain bus would arrive
+<br>Task 2: Determine the frequency of a certain bus
 
-<br><br>The participants were able to complete each of the steps. When users were asked to create a new document, they initally looked near the documents section. Users did find the create button but going forward I knew the documents and folders sections should have a new option.
+
+<br><br>The participants were able to complete each of the tasks sucessfully.
                 </p>
               </div>
     </section>
-
-    <!-- Branding -->
-        <section class="branding">
-            <div class="title">
-              <h3>Branding</h3>
-            </div>
-            <div>
-              <p class="left-side ">The next step before creating the layout of Fruitful, was establishing the look and feel of the brand. This included choosing Permanent Marker as the brand font becuase it portrays the idea of writing a to-do list. Next, I chose Raleway as the type font becuase it is clean, simple and modern to counteract the permanent market. Raleway is very versatile and includes many different font weights.
-I chose orange as the brand color becuase of its association with productivity. Orange is a combination of the energy of yellow and intensity of red. I want users to feel productive, energized and have an intensity for their work when using Fruitful.
-              </p>
-              <img class="right-side" src="images/colors.png" alt="Branding Colors" />
-            </div>
-
-    <!-- Logo -->
-        <section class="Logo">
-            <div class="title">
-              <h3>Logo</h3>
-            </div>
-            <div>
-              <img class="logo-sketch" src="images/logo-sketches.png" alt="Logo Sketches" />
-              <p class=middle>The fruitful logo began as a sketch, then underwent many iterations before the final logo was chosen. It was chosen becuase it represented the name, Fruitful, and the brand color, orange in just the right way.
-              </p>
-              <img class="logo-png" src="images/fruitful-logo.png" alt="Fruitful Logo" />
-            </div>
 
         <!-- High Fidelity Mockups -->
             <section class="mockups">
@@ -231,8 +145,6 @@ I chose orange as the brand color becuase of its association with productivity. 
                   <h3>High Fidelity Mockups</h3>
                 </div>
                 <div>
-                  <p class= middle>Based on the wireframes, user testing and branding, I then completed high fidelity mockups
-                  </p>
                   <figure class="one-third one-of-three homescreen">
                     <img src="images/fruitful-homescreen.png" alt="Fruitful Homescreen" />
                     <figcaption>Homescreen</figcaption>
@@ -249,10 +161,10 @@ I chose orange as the brand color becuase of its association with productivity. 
                 </div>
         </section>
 
-        <!-- preference testing -->
+        <!-- HTML and CSS-->
             <section class="pref-testing">
                 <div class="title">
-                  <h3>Preference Testing</h3>
+                  <h3>Frontend</h3>
                 </div>
                 <div class=pref>
                   <h3 class= middle>Which do you prefer? 82% of users chose the first design.
