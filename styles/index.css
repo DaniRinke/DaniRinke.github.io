@@ -397,6 +397,7 @@
 .details p {
     max-width: 600px;
     margin: 20px 0;
+    text-align: left;
 }
 
 .details h2 {
@@ -610,9 +611,10 @@ div.in-view.right {
 
 
 .icon {
-  padding-left:40%;
+  padding-left:0%;
   padding-top: 0px;
   padding-bottom: 0px;
+  margin-right: 50%;
 }
 
 .visual-design {
@@ -620,5 +622,6 @@ div.in-view.right {
 }
 .top{
   width:100%;
+  margin-right: 50%;
 }
 }
