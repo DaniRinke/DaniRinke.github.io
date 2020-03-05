@@ -599,7 +599,6 @@ div.in-view.right {
     .flex-column {
         flex-direction: column;
     }
-}
 
 .menu-container a {
   color: black;
@@ -611,7 +610,6 @@ div.in-view.right {
 
 
 .icon {
-  padding-right: 40%;
   padding-left:40%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -622,4 +620,5 @@ div.in-view.right {
 }
 .top{
   width:100%;
+}
 }
