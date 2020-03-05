@@ -464,6 +464,7 @@ div.in-view.right {
     .details p {
         font-size: 16px;
         max-width: 440px;
+        text-align: left;
     }
     .tag {
         font-size: 12px;
@@ -498,6 +499,7 @@ div.in-view.right {
     }
     .details p {
         width: 100%;
+          text-align: left;
     }
     .thumbnail > img {
         max-width: 90vw;

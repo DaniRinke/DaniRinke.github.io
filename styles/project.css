@@ -620,3 +620,8 @@ figcaption{
           .two {
             margin-left: 17%;
           }
+
+          .one-of-three{
+            width: 20% ;
+            margin: 5% 10% 5% 5%;
+          }
