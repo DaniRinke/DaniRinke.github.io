@@ -625,3 +625,16 @@ figcaption{
             width: 20% ;
             margin: 5% 10% 5% 5%;
           }
+
+          .option {
+            width: 20% ;
+            margin: 5% 10% 5% 5%;
+          }
+
+          figcaption {
+            width:100%;
+          }
+
+          .details {
+            display: none;
+          }
