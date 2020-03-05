@@ -568,7 +568,8 @@ div.in-view.right {
         padding-bottom: 0;
     }
     .one-fourth {
-        padding: 60px 10px 0 10px;
+      width:50%;
+      padding: 25% 5% 0% 25%;
     }
 
     .one-fourth > h1 {
@@ -598,4 +599,27 @@ div.in-view.right {
     .flex-column {
         flex-direction: column;
     }
+}
+
+.menu-container a {
+  color: black;
+}
+
+.one-fourth {
+  width: 80%;
+}
+
+
+.icon {
+  padding-right: 40%;
+  padding-left:40%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.visual-design {
+  width:100%;
+}
+.top{
+  width:100%;
 }
