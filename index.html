@@ -34,7 +34,7 @@
             <div class="hero-text">
                 <h1>Hi, I'm </h1>
                 <h1>Danielle Rinke</h1>
-                <h1>a UX Designer in Denver, CO looking to help make peopleâ€™s lives easier through design. </h1>
+                <h1>A UX Designer in Denver, CO. Check out my work below!</h1>
                 <a href="#work" id="view-work"><i class="fas fa-chevron-down"></i></a>
             </div>
         </header>
@@ -199,22 +199,36 @@ I entered college with the same struggle all students have: what to major in?  â
              </div>
          </div>
      </footer>
+     <script type="text/javascript">
 
-  </script>
+      (function() {
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159840339-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        'use strict';
 
-    gtag('config', 'UA-159840339-1');
-  </script>
+        var items = document.querySelectorAll(".grid-container div");
 
+        function isElementInViewport(el) {
+          var rect = el.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
 
-<<<<<<< HEAD
-=======
+        function callbackFunc() {
+          for (var i = 0; i < items.length; i++) {
+            if (isElementInViewport(items[i])) {
+              items[i].classList.add("in-view");
+            }
+          }
+        }
+
+        window.addEventListener("load", callbackFunc);
+        window.addEventListener("resize", callbackFunc);
+        window.addEventListener("scroll", callbackFunc);
+
       })();
   </script>
 
@@ -228,6 +242,5 @@ I entered college with the same struggle all students have: what to major in?  â
   gtag('config', 'UA-159840339-1');
 </script>
 
->>>>>>> 6333cec552543a968b519d39e54b0bb3aa8d098c
 </body>
 </html>
