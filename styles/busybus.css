@@ -170,7 +170,7 @@ figcaption{
 }
 
 /*IMAGES */
-.solution-image img{
+.solution img{
   margin: 5% 30% 0% 35%;
 }
 
@@ -456,7 +456,7 @@ figcaption{
      .two {
        margin-left: 17%;
      }
-     @media (max-width: 480px) {
+     @media (max-width: 680px) {
          .hero-text {
              min-width: 300px;
          }
@@ -583,3 +583,6 @@ figcaption{
           .two {
             margin-left: 17%;
           }
+
+          .solution img{
+            margin: 5% 10% 0% 15%;

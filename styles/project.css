@@ -488,7 +488,7 @@ figcaption{
      .two {
        margin-left: 17%;
      }
-     @media (max-width: 500px) {
+     @media (max-width: 680px) {
          .hero-text {
              min-width: 300px;
          }
@@ -647,6 +647,4 @@ figcaption{
             display: none;
           }
 
-          .one-third h2 {
-            color:blue;
-          }
+          
