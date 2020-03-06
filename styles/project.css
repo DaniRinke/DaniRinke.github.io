@@ -629,10 +629,6 @@ figcaption{
             margin-left: 17%;
           }
 
-          .one-of-three{
-            width: 20% ;
-            margin: 5% 10% 5% 5%;
-          }
 
           .option {
             width: 20% ;
@@ -646,5 +642,3 @@ figcaption{
           .details {
             display: none;
           }
-
-          
