@@ -89,6 +89,8 @@ margin: 5% 5% 5% 5%;
   padding:20px 10px 20px 10px;
 }
 
+
+
 .up {
   display: inline-block;
   width: 20% ;
@@ -97,8 +99,13 @@ margin: 5% 5% 5% 5%;
 
 .left-side {
   display: inline-block;
-  width:35%;
+  width:40%;
   margin: 5% 5% 5% 5%;
+}
+
+.branding  {
+  vertical-align:baseline;
+
 }
 
 .right-side{
@@ -156,7 +163,8 @@ margin: 5% 5% 5% 5%;
 }
 
 .final {
-  margin: 5% 5% 5% 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .conclusion p{
@@ -165,7 +173,7 @@ margin: 5% 5% 5% 5%;
 }
 
 figcaption{
-  padding-left: 12%;
+  text-align: center;
 }
 
 /*IMAGES */
@@ -315,7 +323,7 @@ figcaption{
 
    .left-side {
      width:80%;
-     margin: 5% 10% 5% 10%
+     margin: 5% 10% 5% 10%;
    }
    .right-side{
      width:80%;
@@ -401,7 +409,7 @@ figcaption{
     font-size: 14px;
     font-weight: 400;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-
+}
      .one-third {
        text-align: center;
        width: 30% ;
@@ -480,7 +488,7 @@ figcaption{
      .two {
        margin-left: 17%;
      }
-     @media (max-width: 480px) {
+     @media (max-width: 600px) {
          .hero-text {
              min-width: 300px;
          }
@@ -637,4 +645,8 @@ figcaption{
 
           .details {
             display: none;
+          }
+
+          .one-third h2 {
+            color:blue;
           }
