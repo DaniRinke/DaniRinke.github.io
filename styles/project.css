@@ -488,7 +488,7 @@ figcaption{
      .two {
        margin-left: 17%;
      }
-     @media (max-width: 600px) {
+     @media (max-width: 500px) {
          .hero-text {
              min-width: 300px;
          }
