@@ -621,7 +621,9 @@ figcaption{
           }
 
           .top {
-            padding-right: 30%;
+            width:100%;
+            padding-right: 90px;
+            padding-left: 0px;
           }
 
           .conclusion p{
