@@ -626,4 +626,23 @@ div.in-view.right {
   width:100%;
   margin-right: 50%;
 }
+
+.designproc h3{
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin:0;
+}
+
+.designproc p{
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin:0;
+}
+
+.designproc img{
+  text-align: center;
+}
+
 }

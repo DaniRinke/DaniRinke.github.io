@@ -304,7 +304,7 @@ figcaption{
    }
 
    .up img{
-    padding-left: 0%;
+    padding-left: 10%;
    }
 
    .uf-img img {
@@ -444,7 +444,7 @@ figcaption{
      }
 
      .up img{
-      padding-left: 0%;
+      padding-left: 10%;
      }
 
      .uf-img img {
@@ -584,7 +584,7 @@ figcaption{
           }
 
           .up img{
-           padding-left: 0%;
+           padding-left: 10%;
           }
 
           .uf-img img {
@@ -620,7 +620,7 @@ figcaption{
             margin: 0% 10% 10% 10%;
           }
 
-          .top {
+          .top h3 , p{
             width:100%;
             padding-right: 90px;
             padding-left: 0px;
@@ -643,6 +643,7 @@ figcaption{
 
           figcaption {
             width:100%;
+            text-align: center;
           }
 
           .details {
