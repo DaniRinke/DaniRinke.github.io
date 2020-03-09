@@ -171,7 +171,8 @@ figcaption{
 
 /*IMAGES */
 .solution img{
-  margin: 5% 30% 0% 35%;
+  width: 20%;
+  margin: 5% 30% 0% 40%;
 }
 
 .survey img{
