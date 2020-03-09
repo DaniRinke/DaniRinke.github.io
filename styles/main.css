@@ -444,9 +444,14 @@ only screen and (min-device-pixel-ratio: 1.5){
 
     .overlay{
       background-color: #99B2AF;
-      width: 150%;
-
+      width: 300px;
     }
+
+    .contact-text {
+      width:250px;
+    }
+
+
 
     .contact {
       margin:5% 20% 5% 20%;
