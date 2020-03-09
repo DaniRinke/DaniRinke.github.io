@@ -444,11 +444,11 @@ only screen and (min-device-pixel-ratio: 1.5){
 
     .overlay{
       background-color: #99B2AF;
-      width: 300px;
+      width: 200px;
     }
 
     .contact-text {
-      width:250px;
+      width:150px;
     }
 
 
