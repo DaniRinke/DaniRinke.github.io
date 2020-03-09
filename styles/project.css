@@ -620,6 +620,10 @@ figcaption{
             margin: 0% 10% 10% 10%;
           }
 
+          .top {
+            padding-right: 30%;
+          }
+
           .conclusion p{
             width:80%;
             margin: 5% 10% 5% 10%;
