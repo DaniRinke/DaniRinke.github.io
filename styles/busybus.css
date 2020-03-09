@@ -587,3 +587,8 @@ figcaption{
 
           .solution img{
             margin: 5% 10% 0% 15%;
+          }
+
+          .details {
+            display: none;
+          }

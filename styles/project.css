@@ -304,7 +304,7 @@ figcaption{
    }
 
    .up img{
-    padding-left: 20%;
+    padding-left: 0%;
    }
 
    .uf-img img {
@@ -444,7 +444,7 @@ figcaption{
      }
 
      .up img{
-      padding-left: 20%;
+      padding-left: 0%;
      }
 
      .uf-img img {
@@ -584,7 +584,7 @@ figcaption{
           }
 
           .up img{
-           padding-left: 20%;
+           padding-left: 0%;
           }
 
           .uf-img img {
@@ -647,4 +647,8 @@ figcaption{
 
           .details {
             display: none;
+          }
+
+          .center {
+            text-align: left;
           }
