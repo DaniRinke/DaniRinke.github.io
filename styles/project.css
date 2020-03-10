@@ -218,6 +218,11 @@ figcaption{
   margin: 5% 5% 0% 8%;
 }
 
+.style-guide {
+  width:70%;
+  margin: 5% 5% 5% 15%;
+}
+
 .logo-png {
   margin: 0% 5% 5% 30%;
 }
@@ -351,6 +356,11 @@ figcaption{
 
    .logo-sketch {
      width:90%;
+     margin: 5% 5% 5% 5%;
+   }
+
+   .style-guide {
+     width:20%;
      margin: 5% 5% 5% 5%;
    }
 
@@ -491,6 +501,10 @@ figcaption{
        width:90%;
        margin: 5% 5% 5% 5%;
      }
+     .style-guide {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
 
      .logo-png {
        width:80%;
@@ -626,6 +640,11 @@ figcaption{
           }
 
           .logo-sketch {
+            width:90%;
+            margin: 5% 5% 5% 5%;
+          }
+
+          .style-guide {
             width:90%;
             margin: 5% 5% 5% 5%;
           }
