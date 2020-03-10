@@ -21,6 +21,7 @@
     color: #ffffff;
     text-align: left;
     padding-bottom: 15px;
+    line-height: 70px;
 }
 
 .hero-text h1 {
@@ -85,7 +86,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .title {
-  background-color: #99B2AF;
+  background-color: #465D5D;
   padding:20px 10px 20px 10px;
 }
 
@@ -145,7 +146,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .two-sections {
-  background-color: #99B2AF;
+  background-color: #465D5D;
 }
 
 .center {
@@ -153,7 +154,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .color {
-  color:#99B2AF;
+  color:#465D5D;
 }
 
 .final {
@@ -243,8 +244,8 @@ figcaption{
   .button a {
       text-decoration: none;
       color: #ffffff;
-      background-color: #99B2AF;
-      border: 3px solid #99B2AF;
+      background-color: #465D5D;
+      border: 3px solid #465D5D;
       padding: 10px 10px;
       font-size: 14px;
       font-weight: 400;
@@ -372,8 +373,8 @@ figcaption{
     .button a {
         text-decoration: none;
         color: #ffffff;
-        background-color: #99B2AF;
-        border: 3px solid #99B2AF;
+        background-color: #465D5D;
+        border: 3px solid #465D5D;
         padding: 10px 10px;
         font-size: 14px;
         font-weight: 400;
@@ -499,8 +500,8 @@ figcaption{
          .button a {
              text-decoration: none;
              color: #ffffff;
-             background-color: #99B2AF;
-             border: 3px solid #99B2AF;
+             background-color: #465D5D;
+             border: 3px solid #465D5D;
              padding: 10px 10px;
              font-size: 14px;
              font-weight: 400;
