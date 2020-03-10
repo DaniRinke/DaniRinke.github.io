@@ -586,7 +586,9 @@ figcaption{
           }
 
           .solution img{
-            margin: 5% 10% 0% 15%;
+            width: 40%;
+            text-align: center;
+            margin: 5% 30% 0% 30%;
           }
 
           .details {
