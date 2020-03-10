@@ -85,10 +85,9 @@ margin: 5% 5% 5% 5%;
 }
 
 .title {
-  background-color: #99B2AF;
+  background-color: #465D5D;
   padding:20px 10px 20px 10px;
 }
-
 
 
 .up {
@@ -104,7 +103,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .branding  {
-  vertical-align:baseline;
+  vertical-align:text-top;
 
 }
 
@@ -151,7 +150,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .two-sections {
-  background-color: #99B2AF;
+  background-color: #465D5D;
 }
 
 .center {
@@ -159,7 +158,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .color {
-  color:#99B2AF;
+  color:#465D5D;
 }
 
 .final {
@@ -207,6 +206,7 @@ figcaption{
   height:410px;
 }
 
+
 /*SIZING*/
 
 @media (max-width: 850px) {
@@ -251,8 +251,8 @@ figcaption{
   .button a {
       text-decoration: none;
       color: #ffffff;
-      background-color: #99B2AF;
-      border: 3px solid #99B2AF;
+      background-color: #465D5D;
+      border: 3px solid #465D5D;
       padding: 10px 10px;
       font-size: 14px;
       font-weight: 400;
@@ -261,7 +261,7 @@ figcaption{
 
 .button a {
     text-decoration: none;
-    color: #99B2AF;
+    color: #465D5D;
     background-color: #ffffff;
     border: 3px solid #ffffff;
     padding: 10px 10px;
@@ -324,6 +324,7 @@ figcaption{
    .left-side {
      width:80%;
      margin: 5% 10% 5% 10%;
+
    }
    .right-side{
      width:80%;
@@ -392,8 +393,8 @@ figcaption{
     .button a {
         text-decoration: none;
         color: #ffffff;
-        background-color: #99B2AF;
-        border: 3px solid #99B2AF;
+        background-color: #465D5D;
+        border: 3px solid #465D5D;
         padding: 10px 10px;
         font-size: 14px;
         font-weight: 400;
@@ -530,8 +531,8 @@ figcaption{
          .button a {
              text-decoration: none;
              color: #ffffff;
-             background-color: #99B2AF;
-             border: 3px solid #99B2AF;
+             background-color: #465D5D;
+             border: 3px solid #465D5D;
              padding: 10px 10px;
              font-size: 14px;
              font-weight: 400;
