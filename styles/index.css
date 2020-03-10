@@ -629,15 +629,15 @@ div.in-view.right {
 
 .designproc h3{
   width: 100%;
-  text-align: center;
-  padding: 80px;
+  text-align: left;
+  padding: 0px;
   margin:0;
 }
 
 .designproc p{
   width: 100%;
   text-align: left;
-  padding: 80px;
+  padding: 0px;
   margin:0;
 }
 
