@@ -78,7 +78,7 @@ h3{
   width: 35%;
 }
 .left {
-  margin: 5% 5% 5% 10%;
+  margin: 5% 5% 5% 5%;
 
 }
 .right{
@@ -86,7 +86,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .title {
-  background-color: #465D5D;
+  background-color: #99B2AF;
   padding:20px 10px 20px 10px;
 }
 
@@ -146,7 +146,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .two-sections {
-  background-color: #465D5D;
+  background-color: #99B2AF;
 }
 
 .center {
@@ -154,7 +154,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .color {
-  color:#465D5D;
+  color:#99B2AF;
 }
 
 .final {

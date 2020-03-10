@@ -65,8 +65,8 @@ h3{
 .one-third {
   display: inline-block;
   text-align: center;
-  width: 80% ;
-  margin: 0% 4% 5% 4%;
+  width: 10% ;
+  margin: 0% 10% 5% 0%;
 }
 
 .homescreen {
@@ -86,8 +86,8 @@ margin: 5% 5% 5% 5%;
 }
 
 .title {
-  background-color: #465D5D;
-  padding:20px 10px 20px 10px;
+  background-color: #99B2AF;
+  padding:20px 10px 20px 40px;
 }
 
 
@@ -151,7 +151,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .two-sections {
-  background-color: #465D5D;
+  background-color: #99B2AF;
 }
 
 .center {
@@ -159,7 +159,7 @@ margin: 5% 5% 5% 5%;
 }
 
 .color {
-  color:#465D5D;
+  color:#99B2AF;
 }
 
 .final {
