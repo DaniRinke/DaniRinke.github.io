@@ -224,6 +224,7 @@ figcaption{
 }
 
 .logo-png {
+  width:30%;
   margin: 0% 5% 5% 30%;
 }
 .pref img {
@@ -231,6 +232,17 @@ figcaption{
   height:410px;
 }
 
+figure img {
+  width: 250%;
+}
+
+.mobile {
+  display: none;
+}
+
+.details img {
+  margin-bottom: 5%;
+}
 
 /*SIZING*/
 
@@ -681,9 +693,7 @@ figcaption{
             padding-left: 25%;
           }
 
-          .details {
-            display: none;
-          }
+
 
           .center {
             text-align: left;
@@ -692,4 +702,17 @@ figcaption{
           .branding-text img {
             padding-left: 0%;
             padding-top: 100%;
+          }
+
+          figure img {
+            width: 100%;
+          }
+
+          .no-mobile {
+            display: none;
+          }
+
+          .mobile {
+            display: inherit;
+            text-align: center;
           }

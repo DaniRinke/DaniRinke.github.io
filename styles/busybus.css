@@ -200,6 +200,10 @@ figcaption{
   height:410px;
 }
 
+.mobile {
+  display: none;
+}
+
 /*SIZING*/
 
 @media (max-width: 850px) {
@@ -592,6 +596,11 @@ figcaption{
             margin: 5% 30% 0% 30%;
           }
 
-          .details {
+          .no-mobile {
             display: none;
+          }
+
+          .mobile {
+            display: inherit;
+            text-align: center;
           }
