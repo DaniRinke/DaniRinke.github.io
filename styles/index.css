@@ -410,9 +410,7 @@
   margin-top: 0px;
 }
 
-.grid-container > div {
-    opacity: 0;
-}
+
 
 div.in-view.left {
   animation: fadeInLeftBig 1s;
