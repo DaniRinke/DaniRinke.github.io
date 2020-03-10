@@ -61,6 +61,9 @@ h3 {
   font-weight: 500;
 }
 
+.mobile {
+  display: none;
+}
 
 
 /*BUTTONS*/
@@ -68,15 +71,15 @@ h3 {
 .button a {
     text-decoration: none;
     color: #ffffff;
-    background-color: #99B2AF;
-    border: 3px solid #99B2AF;
+    background-color: #465D5D;
+    border: 3px solid #465D5D;
     padding: 10px 40px;
     font-weight: 400;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .button a:hover {
-    color: #99B2AF;
+    color: #465D5D;
     background-color: #ffffff;
 }
 
@@ -88,7 +91,7 @@ h3 {
     text-decoration: none;
     color: #000000;
     background-color: #ffffff;
-    border: 3px solid #99B2AF;
+    border: 3px solid #465D5D;
     border-radius: 4px;
     padding: 10px 40px;
     font-weight: 400;
@@ -97,7 +100,7 @@ h3 {
 
 .aboutbutton a:hover {
     color: #ffffff;
-    background-color: #99B2AF;
+    background-color: #465D5D;
     border: 3px solid #ffffff;
 }
 
@@ -218,7 +221,7 @@ footer {
 
 .footer-content {
     color: #ffffff;
-    background-color: #99B2AF;
+    background-color: #465D5D;
     height: 90px;
 }
 
