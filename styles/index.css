@@ -307,6 +307,8 @@
     animation-name: fadeInRightBig;
 }
 
+/*HEADER*/
+
 .hero-text {
     width: 50%;
     min-width: 500px;
@@ -348,8 +350,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
  }
+
+ /*SIZING*/
 
 .grid-container {
     display: grid;
@@ -373,6 +376,20 @@
      padding: 40px 30px;
  }
 
+ .right img, .left img {
+     max-width: 520px;
+     padding-right: 0px;
+ }
+
+ .flex-column {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+
+/*TEXT*/
+
 .tag {
     font-family: 'Montserrat';
     background: #465D5D;
@@ -382,17 +399,6 @@
     color: #ffffff;
     font-size: 14px;
     margin-right: 3px;
-}
-
-.right img, .left img {
-    max-width: 520px;
-    padding-right: 0px;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .details p {
@@ -410,8 +416,6 @@
   margin-top: 0px;
 }
 
-
-
 div.in-view.left {
   animation: fadeInLeftBig 1s;
   animation-fill-mode: both;
@@ -423,7 +427,7 @@ div.in-view.right {
 }
 
 .designproc {
-    padding: 30px 20px;
+  padding: 30px 20px;
 }
 
 .designproc h2 {
@@ -451,6 +455,7 @@ div.in-view.right {
     padding-top: 50px;
 }
 
+/*SIZING*/
 
 @media (max-width: 1200px) {
     .hero-text h1 {
@@ -608,51 +613,51 @@ div.in-view.right {
         flex-direction: column;
     }
 
-.menu-container a {
-  color: black;
-}
+    .menu-container a {
+      color: black;
+    }
 
-.one-fourth {
-  width: 80%;
-}
-
-
-.icon {
-  padding-left:0%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-right: 50%;
-}
-
-.visual-design {
-  width:100%;
-}
-.top{
-  width:100%;
-  margin-right: 50%;
-}
-
-.designproc h3{
-  width: 100%;
-  text-align: left;
-  padding: 0px;
-  margin:0;
-}
-
-.designproc p{
-  width: 100%;
-  text-align: left;
-  padding: 0px;
-  margin:0;
-}
-
-.designproc img{
-  text-align: center;
-}
-
-.top {
-  margin-right: 80%;
-}
+    .one-fourth {
+      width: 80%;
+    }
 
 
-}
+    .icon {
+      padding-left:0%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-right: 50%;
+    }
+
+    .visual-design {
+      width:100%;
+    }
+    .top{
+      width:100%;
+      margin-right: 50%;
+    }
+
+    .designproc h3{
+      width: 100%;
+      text-align: left;
+      padding: 0px;
+      margin:0;
+    }
+
+    .designproc p{
+      width: 100%;
+      text-align: left;
+      padding: 0px;
+      margin:0;
+    }
+
+    .designproc img{
+      text-align: center;
+    }
+
+    .top {
+      margin-right: 80%;
+    }
+
+
+    }
