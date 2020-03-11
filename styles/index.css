@@ -426,10 +426,16 @@ div.in-view.right {
     padding: 30px 20px;
 }
 
+.designproc h2 {
+  text-align: center;
+}
+
 #subtitle {
     font-size: 24px;
     padding-bottom: 25px;
+    text-align: center;
 }
+
 
 .aboutme {
   background-color: #99B2AF;

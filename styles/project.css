@@ -366,7 +366,7 @@ figcaption {
 
    .one-of-three{
      width: 60% ;
-     margin: 5% 10% 5% 5%;
+     margin: 5% 20% 5% 20%;
    }
 
 
@@ -510,7 +510,7 @@ figcaption {
 
      .one-of-three{
        width: 60% ;
-       margin: 5% 10% 5% 5%;
+       margin: 5% 20% 5% 20%;
      }
 
 
@@ -652,7 +652,7 @@ figcaption {
 
           .one-of-three{
             width: 60% ;
-            margin: 5% 10% 5% 5%;
+            margin: 5% 20% 5% 20%;
           }
 
 
@@ -705,7 +705,7 @@ figcaption {
           figcaption {
             width:100%;
             text-align: center;
-            padding-left: 25%;
+            padding-left: 0%;
           }
 
 
