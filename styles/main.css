@@ -215,6 +215,13 @@ h3 {
 }
 
 /*FOOTER*/
+
+footer h2 {
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+
 footer {
     padding-top: 5px;
 }
@@ -222,7 +229,7 @@ footer {
 .footer-content {
     color: #ffffff;
     background-color: #465D5D;
-    height: 90px;
+    height: 150px;
 }
 
 .copyright {
