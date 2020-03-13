@@ -709,6 +709,19 @@ div.in-view.right {
         flex-direction: column;
     }
 
+    .no-mobile{
+      display: none;
+    }
+
+    .mobile {
+      display: inline;
+    }
+
+    .process-center img {
+      text-align: center;
+      padding-left: 30%;
+    }
+
 
 
 
