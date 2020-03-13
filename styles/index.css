@@ -606,10 +606,7 @@ div.in-view.right {
         font-size: 16px;
         padding-bottom: 0;
     }
-    .one-fourth {
-      width:50%;
-      padding: 25% 5% 0% 25%;
-    }
+
 
     .one-fourth > h1 {
         font-size: 24px;
@@ -618,6 +615,11 @@ div.in-view.right {
     .one-fourth > p {
         font-size: 14px;
         line-height: 1.3;
+    }
+
+    .one-fourth {
+      width:50%;
+      padding: 25% 5% 0% 25%;
     }
 
     .icon {
@@ -658,6 +660,7 @@ div.in-view.right {
     .visual-design {
       width:100%;
     }
+
     .top{
       width:100%;
       margin-right: 50%;
@@ -704,7 +707,11 @@ div.in-view.right {
       padding-bottom: 15%;
     }
 
-  
+    .designproc > .one-fourth {
+        flex-direction: row;
+    }
+
+
 
 
     }

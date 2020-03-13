@@ -809,6 +809,7 @@ figcaption {
              font-size: 14px;
              font-weight: 400;
              box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
      }
 
      .aboutbutton a {
@@ -820,7 +821,20 @@ figcaption {
          font-size: 14px;
          font-weight: 400;
          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
  }
+
+          .button {
+            margin-bottom: 5%;
+          }
+
+          .aboutbutton {
+            margin-bottom: 5%;
+          }
+
+          .top {
+            margin-top: 5%;
+          }
 
 
           .one-third {
