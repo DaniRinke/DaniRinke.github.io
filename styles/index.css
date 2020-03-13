@@ -558,32 +558,34 @@ div.in-view.right {
 }
 
 @media (max-width: 680px) {
-    .hero-text {
-        min-width: 300px;
-    }
-    .hero-content {
-        min-height: 600px;
-        background-position: 60% 50%;
-    }
-    .hero-content img {
-        width: 25%;
-        height: auto;
-    }
-    .hero-text h1 {
-        font-size: 36px;
-    }
-    .hero-text h2 {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .hero-text p {
-        font-size: 18px;
-    }
-    .hero-text h1,
-    .hero-text h2,
-    .hero-text p {
-        padding-bottom: 10px;
-    }
+  .hero-text {
+      min-width: 300px;
+  }
+  .hero-content {
+      height:100px;
+      background-position: 60% 50%;
+  }
+  .hero-content img {
+      width: 25%;
+      height: auto;
+  }
+  .hero-text h1 {
+     font-size: 20px;
+  }
+  .hero-text h2 {
+      font-size: 36px;
+      line-height: 26px;
+  }
+  .hero-text p {
+      font-size: 18px;
+  }
+  .hero-text h1,
+  .hero-text h2,
+  .hero-text p {
+      padding-bottom: 0px;
+  }
+
+
     h1 {
         font-size: 30px;
     }
@@ -721,6 +723,8 @@ div.in-view.right {
       text-align: center;
       padding-left: 30%;
     }
+
+
 
 
 
