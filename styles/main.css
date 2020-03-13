@@ -70,6 +70,27 @@ h3 {
 
 /*BUTTONS*/
 
+.contactbutton {
+  text-decoration: none;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.contactbutton a {
+    padding: 10px 40px;
+    padding-right: 0px;
+}
+
+.contactbutton a:hover {
+    color: #465D5D;
+    background-color: #ffffff;
+}
+
+.contactbutton:hover {
+    color: #465D5D;
+    background-color: #ffffff;
+}
+
 .button a {
     text-decoration: none;
     color: #ffffff;
@@ -310,6 +331,8 @@ footer {
 
 /*Contact Me*/
 
+
+
   .overlay{
     background-color: #99B2AF;
     height: 300px;
@@ -414,7 +437,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 @media (max-width: 680px) {
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     p {
