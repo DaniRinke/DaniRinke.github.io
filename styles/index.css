@@ -458,6 +458,9 @@ div.in-view.right {
 /*SIZING*/
 
 @media (max-width: 1200px) {
+    .hero-text {
+      width:70%;
+    }
     .hero-text h1 {
         font-size: 48px;
     }
@@ -476,15 +479,38 @@ div.in-view.right {
         max-width: 440px;
         text-align: left;
     }
+
+    .details h2 {
+      margin-top: 5%;
+    }
     .tag {
         font-size: 12px;
         margin-left: 0;
         margin-right: 0;
     }
     .designproc > .flex-container {
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .designproc h3{
+      width: 90%;
+      text-align: left;
+      padding: 0px;
+      margin:0px;
+    }
+
+    .designproc p{
+      width: 80%;
+      text-align: left;
+      padding: 0px;
+      margin:0px;
+    }
+
+    .designproc img{
+      text-align: center;
     }
 }
+
+
 
 @media (max-width: 930px) {
     .right {
@@ -657,6 +683,25 @@ div.in-view.right {
 
     .top {
       margin-right: 80%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    .designproc > .flex-container {
+        flex-direction: row;
+    }
+
+    footer h2 {
+      font-size: 20px;
+      padding-top: 5%;
+    }
+
+    footer {
+      padding-top: 5%;
+    }
+
+    .aboutbutton {
+      padding-bottom: 15%;
     }
 
 

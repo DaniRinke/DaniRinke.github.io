@@ -1,6 +1,7 @@
 .container{
   margin-left: 5%;
   margin-right: 5%;
+  max-width: 1200px;
 }
 
 .hero-text {
@@ -247,8 +248,9 @@ figure img {
 
 /*Slideshow*/
 .Slideshow-text {
-  text-align: center;
-  margin-bottom: 5%;
+  margin: 5% 0% 5% 0%;
+
+
 }
 
 figcaption {
@@ -259,9 +261,207 @@ figcaption {
 
 
 
+
+
+
+
 /*SIZING*/
 
+@media (max-width: 1200px) {
+    .hero-text h1 {
+        font-size: 48px;
+    }
+    .hero-text h2 {
+        font-size: 32px;
+    }
+    .hero-text p {
+        font-size: 20px;
+    }
+    .thumbnail > img {
+        max-width: 400px;
+
+    }
+    p {
+        font-size: 16px;
+
+        text-align: left;
+    }
+    .container{
+      width:100%;
+    }
+
+    .middle {
+      width: 80%;
+      margin:10%;
+    }
+
+    .middle p {
+      font-size: 14px;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #465D5D;
+        border: 3px solid #465D5D;
+        padding: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.aboutbutton a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+     .one-third {
+       text-align: center;
+       width: 30% ;
+       margin: 0% 5% 5% 2.5%;
+     }
+     .role{
+       margin-right: 0%;
+       margin-left: 10%;
+     }
+
+     .tools {
+       margin-right: 10%;
+     }
+
+     .one-half {
+       width: 60%;
+     }
+
+     .right {
+       margin-left: 10%;
+     }
+
+     .survey img{
+       width:70%;
+       margin: 2.5% 15% 0% 15%;
+     }
+
+     .up {
+       display: inline-block;
+       width: 60% ;
+       margin: 5% 20% 5% 20%;
+     }
+
+     .up p {
+       width:60%;
+     }
+
+     .up img{
+      padding-left: 10%;
+     }
+
+     .uf-img img {
+       width:80%;
+       margin: 2.5% 10% 0% 10%;
+     }
+
+     .one-of-three{
+       width: 60% ;
+       margin: 5% 20% 5% 20%;
+     }
+
+
+
+     .left-side {
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+     .right-side{
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+
+     .logo-sketch {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .style-guide {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .logo-png {
+       width:80%;
+       margin: 0% 10% 10% 10%;
+     }
+
+     .top h3 , p{
+       width:100%;
+       padding-right: 90px;
+       padding-left: 0px;
+     }
+
+     .conclusion p{
+       width:80%;
+       margin: 5% 10% 5% 10%;
+     }
+
+     .pref h3 {
+       text-align: center;
+     }
+
+
+     .option{
+       width: 20% ;
+     }
+
+     .one {
+       margin-left: 35%;
+     }
+
+     .two {
+       margin-left: 35%;
+     }
+
+     figcaption {
+       width:100%;
+       text-align: center;
+       padding-left: 0%;
+     }
+
+
+
+     .center {
+       text-align: left;
+     }
+
+     .branding-text img {
+       padding-left: 0%;
+       padding-top: 50%;
+     }
+
+     figure img {
+       width: 100%;
+     }
+
+     .no-mobile {
+       width:70%;
+}
+
+
+}
+
 @media (max-width: 850px) {
+
+  .hero-text {
+    width:70%;
+
+  }
+
   .hero-text {
       min-width: 300px;
   }
@@ -407,6 +607,8 @@ figcaption {
 }
 
 @media (max-width: 770px) {
+
+
     .hero-text {
         min-width: 300px;
     }
@@ -543,15 +745,28 @@ figcaption {
        margin: 5% 10% 5% 10%;
      }
 
+     .pref h3 {
+       text-align: center;
+     }
+
+
+     .option{
+       width: 20% ;
+     }
+
+     .one {
+       margin-left: 30%;
+     }
+
      .two {
-       margin-left: 17%;
+       margin-left: 30%;
      }
      @media (max-width: 680px) {
          .hero-text {
              min-width: 300px;
          }
          .hero-content {
-             min-height: 600px;
+             height:100px;
              background-position: 60% 50%;
          }
          .hero-content img {
@@ -559,7 +774,7 @@ figcaption {
              height: auto;
          }
          .hero-text h1 {
-             font-size: 36px;
+             font-size: 20px;
          }
          .hero-text h2 {
              font-size: 20px;
@@ -571,7 +786,7 @@ figcaption {
          .hero-text h1,
          .hero-text h2,
          .hero-text p {
-             padding-bottom: 10px;
+             padding-bottom: 0px;
          }
          h1 {
              font-size: 30px;
