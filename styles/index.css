@@ -637,9 +637,7 @@ div.in-view.right {
     padding: 10%;
     }
 
-    .flex-column {
-        flex-direction: column;
-    }
+
 
     .menu-container a {
       color: black;
@@ -691,7 +689,7 @@ div.in-view.right {
     }
 
     .designproc > .flex-container {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     footer h2 {
@@ -708,7 +706,7 @@ div.in-view.right {
     }
 
     .designproc > .one-fourth {
-        flex-direction: row;
+        flex-direction: column;
     }
 
 
