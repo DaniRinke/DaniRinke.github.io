@@ -41,7 +41,7 @@
 .hero-content {
     position: relative;
     min-height: 675px;
-    background-image: url(../images/background-image.png);
+    background-image: url(../images/fruitful-hero.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -774,7 +774,7 @@ figcaption {
              height: auto;
          }
          .hero-text h1 {
-             font-size: 20px;
+            font-size: 36px;
          }
          .hero-text h2 {
              font-size: 20px;

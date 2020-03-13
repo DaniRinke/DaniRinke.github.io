@@ -1,0 +1,8 @@
+.hero-content {
+    position: relative;
+    min-height: 675px;
+    background-image: url(../images/about-hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
