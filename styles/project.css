@@ -907,8 +907,12 @@ figcaption {
             margin: 5% 10% 5% 10%;
           }
 
+          .one{
+            margin-left: 30%;
+          }
+
           .two {
-            margin-left: 17%;
+            margin-left: 30%;
           }
 
 
@@ -931,7 +935,7 @@ figcaption {
 
           .branding-text img {
             padding-left: 0%;
-            padding-top: 100%;
+            padding-top: 75%;
           }
 
           figure img {
