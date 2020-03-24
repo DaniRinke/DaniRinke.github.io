@@ -1,0 +1,978 @@
+.container{
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1200px;
+}
+
+.hero-text {
+    width: 50%;
+    min-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+.hero-text h2 {
+    max-width: 450px;
+}
+
+.hero-text h1,
+.hero-text h2,
+.hero-text p {
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.hero-text h1 {
+    animation: bounceInDown 1.2s ease-in-out 0.5s backwards;
+}
+
+.hero-text i {
+    animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
+}
+
+#view-work {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.hero-content {
+    position: relative;
+    min-height: 675px;
+    background-image: url(../images/EatAble/EatAble-Hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h3{
+  text-align: left;
+}
+
+figcaption {
+  width: 100%;
+  text-align: center;
+  padding-left: 25%;
+}
+
+.button{
+  text-align: center;
+  margin:5% 0% 5% 0%;
+}
+
+.header{
+  padding: 5% 0% 5% 0%;
+
+}
+
+/*SIZING*/
+
+.middle {
+  margin: 5% 0% 5% 25%;
+  width: 50%;
+}
+
+.one-third {
+  display: inline-block;
+  text-align: center;
+  width: 10% ;
+  margin: 0% 10% 5% 0%;
+}
+
+.homescreen {
+  margin-left: 10%;
+}
+
+.one-half {
+  display: inline-block;
+  width: 35%;
+}
+.left {
+  margin: 5% 5% 5% 10%;
+
+}
+.right{
+margin: 5% 5% 5% 5%;
+}
+
+.title {
+  background-color: #99B2AF;
+  padding:20px 10px 20px 40px;
+}
+
+
+.up {
+  display: inline-block;
+  width: 20% ;
+  margin: 5% 10% 5% 15%;
+}
+
+.left-side {
+  display: inline-block;
+  width:40%;
+  margin: 5% 5% 5% 5%;
+}
+
+.branding  {
+  vertical-align: baselinetext-top;
+
+}
+
+.right-side{
+display: inline-block;
+width:25%;
+margin: 5% 5% 5% 5%;
+}
+
+.option{
+  display: inline-block;
+  width:30%;
+  margin: 0% 5% 5% 10%;
+}
+
+.one {
+  margin-left: 17%;
+}
+
+.branding-text {
+  position: relative;
+}
+
+.branding-p {
+  position: absolute;
+}
+
+.branding-text img {
+  padding-left: 50%;
+}
+
+
+/*DETAILS*/
+
+.details h2{
+  text-decoration: underline;
+  text-align: left;
+}
+.details p{
+  text-align: left;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.role{
+  margin-left: 60%;
+}
+
+.deliverables {
+  margin-left: 20%;
+}
+
+.two-sections {
+  background-color: #99B2AF;
+}
+
+.center {
+  text-align: center;
+}
+
+.color {
+  color:#99B2AF;
+}
+
+.final {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.conclusion p{
+  width:50%;
+  margin: 5% 10% 5% 25%;
+}
+
+figcaption{
+  width: 100%;
+  text-align: center;
+  padding-left: 25%;
+}
+
+/*IMAGES */
+.solution-image img{
+  height: 70%;
+  width: 70%;
+  margin: 5% 15% 5% 15%;
+}
+
+.survey img{
+  width:50%;
+  margin: 2.5% 25% 0% 25%;
+}
+
+.up img{
+ padding-left: 10%;
+}
+
+.uf-img img {
+  margin: 0% 15% 0% 15%;
+}
+
+.logo-sketch {
+  width:40%;
+  margin: 5% 30% 0% 30%;
+}
+
+.style-guide {
+  width:70%;
+  margin: 5% 5% 5% 15%;
+}
+
+.logo-png {
+  width:20%;
+  margin: 0% 40% 5% 40%;
+}
+.pref img {
+  width: 340px;
+  height:410px;
+}
+
+figure img {
+  width: 250%;
+}
+
+.mobile {
+  display: none;
+}
+
+.details img {
+  margin-bottom: 5%;
+}
+
+
+/*Slideshow*/
+.Slideshow-text {
+  margin: 5% 0% 5% 0%;
+}
+
+.slideshow {
+  margin: 5% 0% 5% 0%;
+  width: 100%;
+  }
+
+
+
+figcaption {
+  width:100%;
+  text-align: center;
+  padding-left: 70%;
+}
+
+
+
+
+
+
+
+/*SIZING*/
+
+@media (max-width: 1200px) {
+    .hero-text h1 {
+        font-size: 48px;
+    }
+    .hero-text h2 {
+        font-size: 32px;
+    }
+    .hero-text p {
+        font-size: 20px;
+    }
+    .thumbnail > img {
+        max-width: 400px;
+
+    }
+    p {
+        font-size: 16px;
+
+        text-align: left;
+    }
+    .container{
+      width:100%;
+    }
+
+    .middle {
+      width: 80%;
+      margin:10%;
+    }
+
+    .middle p {
+      font-size: 14px;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #465D5D;
+        border: 3px solid #465D5D;
+        padding: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.aboutbutton a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+     .one-third {
+       text-align: center;
+       width: 30% ;
+       margin: 0% 5% 5% 2.5%;
+     }
+     .role{
+       margin-right: 0%;
+       margin-left: 10%;
+     }
+
+     .tools {
+       margin-right: 10%;
+     }
+
+     .one-half {
+       width: 60%;
+     }
+
+     .right {
+       margin-left: 10%;
+     }
+
+     .survey img{
+       width:70%;
+       margin: 2.5% 15% 0% 15%;
+     }
+
+     .up {
+       display: inline-block;
+       width: 60% ;
+       margin: 5% 20% 5% 20%;
+     }
+
+     .up p {
+       width:60%;
+     }
+
+     .up img{
+      padding-left: 10%;
+     }
+
+     .uf-img img {
+       width:80%;
+       margin: 2.5% 10% 0% 10%;
+     }
+
+     .one-of-three{
+       width: 60% ;
+       margin: 5% 20% 5% 20%;
+     }
+
+
+
+     .left-side {
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+     .right-side{
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+
+     .logo-sketch {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .style-guide {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .logo-png {
+       width:80%;
+       margin: 0% 10% 10% 10%;
+     }
+
+     .top h3 , p{
+       width:100%;
+       padding-right: 90px;
+       padding-left: 0px;
+     }
+
+     .conclusion p{
+       width:80%;
+       margin: 5% 10% 5% 10%;
+     }
+
+     .pref h3 {
+       text-align: center;
+     }
+
+
+     .option{
+       width: 20% ;
+     }
+
+     .one {
+       margin-left: 35%;
+     }
+
+     .two {
+       margin-left: 35%;
+     }
+
+     figcaption {
+       width:100%;
+       text-align: center;
+       padding-left: 0%;
+     }
+
+
+
+     .center {
+       text-align: left;
+     }
+
+     .branding-text img {
+       padding-left: 0%;
+       padding-top: 50%;
+     }
+
+     figure img {
+       width: 100%;
+     }
+
+     .no-mobile {
+       width:70%;
+}
+
+
+}
+
+@media (max-width: 850px) {
+
+  .hero-text {
+    width:70%;
+
+  }
+
+  .hero-text {
+      min-width: 300px;
+  }
+  .hero-content {
+      min-height: 600px;
+      background-position: 60% 50%;
+  }
+  .hero-content img {
+      width: 25%;
+      height: auto;
+  }
+  .hero-text h1 {
+      font-size: 36px;
+  }
+  .hero-text h2 {
+      font-size: 20px;
+      line-height: 26px;
+  }
+  .hero-text p {
+      font-size: 18px;
+  }
+  .hero-text h1,
+  .hero-text h2,
+  .hero-text p {
+      padding-bottom: 10px;
+  }
+  h1 {
+      font-size: 30px;
+}
+  .middle {
+    width: 80%;
+    margin:10%;
+  }
+
+  .middle p {
+    font-size: 14px;
+  }
+
+  .button a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #465D5D;
+      border: 3px solid #465D5D;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: 400;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button a {
+    text-decoration: none;
+    color: #465D5D;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+   .one-third {
+     text-align: center;
+     width: 30% ;
+     margin: 0% 5% 5% 0%;
+   }
+   .role{
+     margin-right: 0%;
+     margin-left: 10%;
+   }
+
+   .tools {
+     margin-right: 10%;
+   }
+
+   .one-half {
+     width: 60%;
+   }
+
+   .right {
+     margin-left: 10%;
+   }
+
+   .survey img{
+     width:70%;
+     margin: 2.5% 15% 0% 15%;
+   }
+
+   .up {
+     display: inline-block;
+     width: 80% ;
+     margin: 5% 10% 5% 15%;
+   }
+
+   .up img{
+    padding-left: 10%;
+   }
+
+   .uf-img img {
+     width:80%;
+     margin: 2.5% 10% 0% 10%;
+   }
+
+   .one-of-three{
+     width: 60% ;
+     margin: 5% 20% 5% 20%;
+   }
+
+
+
+   .left-side {
+     width:80%;
+     margin: 5% 10% 5% 10%;
+
+   }
+   .right-side{
+     width:80%;
+     margin: 5% 10% 5% 10%
+   }
+
+   .logo-sketch {
+     width:90%;
+     margin: 5% 5% 5% 5%;
+   }
+
+   .style-guide {
+     width:20%;
+     margin: 5% 5% 5% 5%;
+   }
+
+   .logo-png {
+     width:80%;
+     margin: 0% 10% 10% 10%;
+   }
+
+   .conclusion p{
+     width:80%;
+     margin: 5% 10% 5% 10%;
+   }
+
+   .two {
+     margin-left: 17%;
+   }
+}
+
+@media (max-width: 770px) {
+
+
+    .hero-text {
+        min-width: 300px;
+    }
+    .hero-content {
+        min-height: 600px;
+        background-position: 60% 50%;
+    }
+    .hero-content img {
+        width: 25%;
+        height: auto;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .hero-text h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hero-text p {
+        font-size: 18px;
+    }
+    .hero-text h1,
+    .hero-text h2,
+    .hero-text p {
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 30px;
+  }
+    .middle {
+      width: 80%;
+      margin:10%;
+    }
+
+    .middle p {
+      font-size: 14px;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #465D5D;
+        border: 3px solid #465D5D;
+        padding: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.aboutbutton a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+     .one-third {
+       text-align: center;
+       width: 30% ;
+       margin: 0% 5% 5% 2.5%;
+     }
+     .role{
+       margin-right: 0%;
+       margin-left: 10%;
+     }
+
+     .tools {
+       margin-right: 10%;
+     }
+
+     .one-half {
+       width: 60%;
+     }
+
+     .right {
+       margin-left: 10%;
+     }
+
+     .survey img{
+       width:70%;
+       margin: 2.5% 15% 0% 15%;
+     }
+
+     .up {
+       display: inline-block;
+       width: 80% ;
+       margin: 5% 10% 5% 15%;
+     }
+
+     .up img{
+      padding-left: 10%;
+     }
+
+     .uf-img img {
+       width:80%;
+       margin: 2.5% 10% 0% 10%;
+     }
+
+     .one-of-three{
+       width: 60% ;
+       margin: 5% 20% 5% 20%;
+     }
+
+
+
+     .left-side {
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+     .right-side{
+       width:80%;
+       margin: 5% 10% 5% 10%
+     }
+
+     .logo-sketch {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+     .style-guide {
+       width:90%;
+       margin: 5% 5% 5% 5%;
+     }
+
+     .logo-png {
+       width:80%;
+       margin: 0% 10% 10% 10%;
+     }
+
+     .conclusion p{
+       width:80%;
+       margin: 5% 10% 5% 10%;
+     }
+
+     .pref h3 {
+       text-align: center;
+     }
+
+
+     .option{
+       width: 20% ;
+     }
+
+     .one {
+       margin-left: 30%;
+     }
+
+     .two {
+       margin-left: 30%;
+     }
+     @media (max-width: 680px) {
+         .hero-text {
+             min-width: 300px;
+         }
+         .hero-content {
+             height:100px;
+             background-position: 60% 50%;
+         }
+         .hero-content img {
+             width: 25%;
+             height: auto;
+         }
+         .hero-text h1 {
+            font-size: 20px;
+         }
+         .hero-text h2 {
+             font-size: 36px;
+             line-height: 26px;
+         }
+         .hero-text p {
+             font-size: 18px;
+         }
+         .hero-text h1,
+         .hero-text h2,
+         .hero-text p {
+             padding-bottom: 0px;
+         }
+         h1 {
+             font-size: 30px;
+       }
+         .middle {
+           width: 80%;
+           margin:10%;
+         }
+
+         .middle p {
+           font-size: 14px;
+         }
+
+         .button a {
+             text-decoration: none;
+             color: #ffffff;
+             background-color: #465D5D;
+             border: 3px solid #465D5D;
+             padding: 10px 10px;
+             font-size: 14px;
+             font-weight: 400;
+             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+     }
+
+     .aboutbutton a {
+         text-decoration: none;
+         color: #000000;
+         background-color: #ffffff;
+         border: 3px solid #ffffff;
+         padding: 10px 10px;
+         font-size: 14px;
+         font-weight: 400;
+         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+ }
+
+          .button {
+            margin-bottom: 5%;
+          }
+
+          .aboutbutton {
+            margin-bottom: 5%;
+          }
+
+          .top {
+            margin-top: 5%;
+          }
+
+
+          .one-third {
+            text-align: center;
+            width: 30% ;
+            margin: 0% 5% 5% 2.5%;
+          }
+          .role{
+            margin-right: 0%;
+            margin-left: 10%;
+          }
+
+          .tools {
+            margin-right: 10%;
+          }
+
+          .one-half {
+            width: 60%;
+          }
+
+          .right {
+            margin-left: 10%;
+          }
+
+          .survey img{
+            width:70%;
+            margin: 2.5% 15% 0% 15%;
+          }
+
+          .up {
+            display: inline-block;
+            width: 80% ;
+            margin: 5% 10% 5% 15%;
+          }
+
+          .up img{
+           padding-left: 10%;
+          }
+
+          .uf-img img {
+            width:80%;
+            margin: 2.5% 10% 0% 10%;
+          }
+
+          .one-of-three{
+            width: 60% ;
+            margin: 5% 20% 5% 20%;
+          }
+
+
+
+          .left-side {
+            width:80%;
+            margin: 5% 10% 5% 10%
+          }
+          .right-side{
+            width:80%;
+            margin: 5% 10% 5% 10%
+          }
+
+          .logo-sketch {
+            width:90%;
+            margin: 5% 5% 5% 5%;
+          }
+
+          .style-guide {
+            width:90%;
+            margin: 5% 5% 5% 5%;
+          }
+
+          .logo-png {
+            width:80%;
+            margin: 0% 10% 10% 10%;
+          }
+
+          .top h3 , p{
+            width:100%;
+            padding-right: 90px;
+            padding-left: 0px;
+          }
+
+          .conclusion p{
+            width:80%;
+            margin: 5% 10% 5% 10%;
+          }
+
+          .one{
+            margin-left: 30%;
+          }
+
+          .two {
+            margin-left: 30%;
+          }
+
+
+          .option {
+            width: 20% ;
+            margin: 5% 10% 5% 5%;
+          }
+
+          figcaption {
+            width:100%;
+            text-align: center;
+            padding-left: 0%;
+          }
+
+
+
+          .center {
+            text-align: left;
+          }
+
+          .branding-text img {
+            padding-left: 0%;
+            padding-top: 120%;
+          }
+
+          figure img {
+            width: 100%;
+          }
+
+          .no-mobile {
+            display: none;
+          }
+
+          .mobile {
+            display: inherit;
+            text-align: center;
+          }
