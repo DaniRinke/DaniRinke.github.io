@@ -4,6 +4,27 @@
     padding: 50px 100px;
 }
 
+.hero-content {
+  box-shadow: 10px 10px 120px grey;
+}
+
+.title {
+  box-shadow: 10px 20px 120px grey;
+}
+
+.two-sections {
+  box-shadow: 10px 10px 120px grey;
+}
+
+.aboutme {
+  box-shadow: 10px 5px 120px grey;
+}
+
+.mentor-container {
+  box-shadow: 10px 10px 120px grey;
+}
+
+
 /*TEXT*/
 
 html {
@@ -65,6 +86,11 @@ h3 {
 
 .mobile {
   display: none;
+}
+
+.title h3 {
+  text-align: left;
+  padding-left: 2%;
 }
 
 

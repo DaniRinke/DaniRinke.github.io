@@ -1,5 +1,6 @@
 @-webkit-keyframes bounceInDown {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -38,6 +39,7 @@
 
 @keyframes bounceInDown {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -77,10 +79,12 @@
 .bounceInDown {
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
+    animation-duration: 20s;
 }
 
 @-webkit-keyframes bounceInLeft {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -119,6 +123,7 @@
 
 @keyframes bounceInLeft {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -158,10 +163,12 @@
 .bounceInLeft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
+    animation-duration: 20s;
 }
 
 @-webkit-keyframes bounceInRight {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -170,7 +177,7 @@
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translate3d(3000px, 0, 0);
     transform: translate3d(3000px, 0, 0);
@@ -200,6 +207,7 @@
 
 @keyframes bounceInRight {
   from,
+  0%;
   60%,
   75%,
   90%,
@@ -208,7 +216,7 @@
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translate3d(3000px, 0, 0);
     transform: translate3d(3000px, 0, 0);
@@ -239,6 +247,7 @@
 .bounceInRight {
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
+    animation-duration: 20s;
 }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -269,9 +278,12 @@
   }
 }
 
+
+
 .fadeInLeftBig {
     -webkit-animation-name: fadeInLeftBig;
     animation-name: fadeInLeftBig;
+    animation-duration: 20s;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -305,6 +317,7 @@
 .fadeInRightBig {
     -webkit-animation-name: fadeInRightBig;
     animation-name: fadeInRightBig;
+    animation-duration: 20s;
 }
 
 /*HEADER*/
@@ -331,11 +344,11 @@
 }
 
 .hero-text h1 {
-    animation: bounceInDown 1.2s ease-in-out 0.5s backwards;
+    animation: bounceInDown 3s ease-in-out 0.5s backwards;
 }
 
 .hero-text i {
-    animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
+    animation: bounceInRight 3s ease-in-out 0.5s backwards;
 }
 
 #view-work {
@@ -363,13 +376,13 @@
  .left {
      grid-row-start: 1;
      grid-column: 1 / 2;
-     animation: bounceInLeft 1.2s ease-in-out 0.5s backwards;
+     animation: bounceInLeft 3s ease-in-out 0.5s backwards;
  }
 
  .right {
      grid-row-start: 1;
      grid-column: 7 / 8;
-     animation: bounceInRight 1.2s ease-in-out 0.5s backwards;
+     animation: bounceInRight 3s ease-in-out 0.5s backwards;
  }
 
  .aboutme{
@@ -417,12 +430,12 @@
 }
 
 div.in-view.left {
-  animation: fadeInLeftBig 1s;
+  animation: fadeInLeftBig 3s;
   animation-fill-mode: both;
 }
 
 div.in-view.right {
-  animation: fadeInRightBig 1s;
+  animation: fadeInRightBig 3s;
   animation-fill-mode: both;
 }
 

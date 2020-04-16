@@ -45,6 +45,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    box-shadow: 10px 10px 55px grey;
 }
 
 h3{
